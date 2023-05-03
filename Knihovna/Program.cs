@@ -12,9 +12,9 @@ class TestLibrary {
 		Book kniha6 = new Book(aut1, "Válka s mloky", 186, 350);
 		Book kniha7 = new Book(aut1, "Bílá nemoc", 310, 450);
 		Book kniha8 = new Book(aut1, "Matka", 200, 210);
-		Book kniha9 = new Book(new Author("Velky", "Kanec", new DateTime(2004,11, 2)),"tezka picovina", 1000, 10000);
+		Book kniha9 = new Book(new Author("Josef", "Kanec", new DateTime(2004,11, 2)),"Nevim", 1000, 10000);
 		Reader cten1 = new Reader("Jan", "Matušek", new DateTime(1994,3,6));
-		Reader cten2 = new Reader("Tejina", "Matušková", new DateTime(1995, 11, 13));
+		Reader cten2 = new Reader("Petr", "Novák", new DateTime(1995, 11, 13));
 		Library knihovna = new Library();
 		knihovna.addBook(kniha1);
 		knihovna.addBook(kniha2);
